@@ -19,7 +19,7 @@ function hw:init()
 	-- Sensors and detectors
 	self.altitude = find_req("altitude_sensor")
 	-- self.distance_height = find_req("distance_detector")
-	self.environment = find_req("environment_detector")
+	self.optical = find_req("optical_sensor")
 	self.gimbal = find_req("gimbal_sensor")
 	self.player = find_req("player_detector")
 	self.velocity = find_req("velocity_sensor")
