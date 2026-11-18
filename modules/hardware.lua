@@ -6,6 +6,7 @@ local function find_req(p_type, filter)
 	if not dev then
 		error("Could not find " .. p_type, 2)
 	end
+	print("Found", p_type)
 	return dev
 end
 
